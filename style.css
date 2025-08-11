@@ -1,0 +1,130 @@
+/*Estilos generales*/
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  font-family: 'Segoe UI', 'sans-serif', 'Arial';
+  text-align: center;
+  font-size: 18px;
+  margin: 0;
+  padding: 20px;
+  background-color: #ffffff ;
+  color: #000000;
+  line-height: 1.8;
+}
+
+
+header{
+  background-color: #932F67;
+  color: width;
+  padding: 25px;
+  text-align: center;
+}
+
+h1{
+  font-size: 40px;
+  color:#932F67 ;
+}
+
+nav ul{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  flex-wrap: warp;
+  gap: 20px;
+  margin-top: 15px;
+}
+
+nav a{
+  color: #000000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover{
+  text-decoration: underline;
+  color: white;
+}
+
+main {
+  max-width: 1800px;
+  margin: auto;
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+img {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border: 7px solid #932F67;
+  border-radius: 50px;
+  align-content: right;
+  margin-right: 0 auto;
+  margin: 0 auto;
+  margin-top: 25px;
+  display: block;
+}
+
+h3{
+  text-align: left;
+  font-size: 25px;
+}
+
+/*listas con iconos  desde imagen*/
+.icon-list{
+  list-style: none;
+  padding: 0;
+  text-align: left;
+}
+
+.icon-list li{
+  margin-top: 15px;
+  background: url('img/icono.png') no-repeat left center;
+  background-size: 25px 25px;
+  padding-left: 30px;
+  margin-bottom: 10px;
+  line-height: 1.5 ;
+}
+
+footer{
+  background-color: #ffffff;
+  color: #000000;
+  text-align: center;
+  padding: 0px;
+  font-size: 15px;
+  margin-top: 30px;
+
+  /*Pie de páginas*/
+.pie{
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 25px;
+}
+
+
+@media (max-width: 10px;{
+  .imagen-estilo{
+    float: none;
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+  }
+
+  .titulo{
+    font-size: 50px;
+  }
+
+  .seccion {
+    padding:10px;
+  }
+}
+
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+  <meta charset="UTF-8">
+  <title>Sobre mí</title>
+  <link rel="stylesheet" href="estiloshabilidadesjs.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Galería de Habilidades con Modal</title>
+</head>
+<body>
+
+  <nav>
+    <a href="index.html"> Ir a Inicio</a>
+    <a href="sobreMi.html"> Ir a Sobre Mi</a>
+    <a href="Contacto.html">Ir a Contacto</a>
+  </nav>
+<body>
+
+<header>
+  <h1>Galería de mis Habilidades</h1>
+</header>
+
+<main class="galeria">
+
+  <!-- Proyecto 1 -->
+  <div class="tarjeta" data-proyecto='{
+  "titulo":"Habilidades Tecnologicas",
+    "imagen":"img/tecnologia2.png",
+    "resumen":"Una aplicación web de tareas diarias con almacenamiento local.",
+    "detalles":"Estas son algunas de las actividades Tecnológicas con las que cuento.",
+    "caracteristicas":["Manejo básico de Office, como, Word, PowerPoint, Hoja de cálculo","Manejo software de edición","Cuento con una constancia sobre Desbloqueos y reparación de celulares con sistema Android. ","Manejo básico de programas como Trello, Lucidchart"]
+
+  }'>
+    <img src="img/tecnologia.jpg" alt="Proyecto 1" />
+    <h2>Habilidades Tecnológicas</h2>
+    <p class="resumen">Este apartado cuenta con algunas de las habilidades que poseo en la área Tecnológica</p>
+    <button class="ver-mas">Ver más</button>
+  </div>
+
+ <!-- Proyecto 2 -->
+<div class="tarjeta" data-proyecto='{
+  "titulo": "Habilidades de desarrollo",
+  "imagen": "img/desarrollo2.jpg",
+  "resumen": "Algunas de las habilidades de desarrollo que tengo.",
+  "detalles": "Estas habilidades reflejan mi capacidad para aprender, colaborar y resolver problemas.",
+  "caracteristicas": [
+    "Aprendo rápido",
+    "Puedo trabajar en equipo",
+    "Puedo crear algoritmos",
+    "Tengo buena redacción"
+  ]
+}'>
+  <img src="img/desarrollo.jpg" alt="Proyecto 2" />
+  <h2>Habilidades de desarrollo</h2>
+  <p class="resumen">Algunas de las habilidades de desarrollo que tengo.</p>
+  <button class="ver-mas">Ver más</button>
+</div>
+
+
+</main>
+
+<!-- Modal -->
+<div id="modal" class="modal oculto">
+  <div class="modal-contenido">
+    <span id="cerrar" class="cerrar">&times;</span>
+    <h2 id="modal-titulo"></h2>
+    <img id="modal-imagen" src="" alt="" />
+    <p id="modal-detalles"></p>
+    <ul id="modal-caracteristicas"></ul>
+  </div>
+</div>
+
+<!-- Pie de página -->
+  <footer>
+    <div class="pie">
+      <p>© 2025 Lizbeth Hernández. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+<script src="scripthabilidades.js"></script>
+</body>
+</html>
